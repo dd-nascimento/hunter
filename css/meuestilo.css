@@ -1,0 +1,45 @@
+/** IMPORT **/
+@import url('https://fonts.googleapis.com/css2? family= Lato:wght@300 & display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    border: 0;
+    font: lato;
+    vertical-align: baseline;
+}
+
+body{
+    background-color: #F2F2F2;
+}
+
+h1, h2{
+    font-family: 'Lato', sans-serif; 
+}
+
+header{
+    background-color: #0460D9;
+
+}
+
+.cabecalho{    display: flex;}
+
+.logo, .logo2{
+    padding-bottom: 0px;
+    margin-bottom: 0px;  
+}
+
+.logo2{
+    margin-top: 5px;
+    margin-left: 15px;
+    color: #F2F2F2;
+}
+
+.navbar{
+    background-color: #0460D9;
+}
+
+.navbar ul a:hover{
+    color: #F2F2F2;
+    transition: 0.5s;
+}
