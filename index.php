@@ -25,7 +25,7 @@
                         <a class="nav-link" href="index.php">Início</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Novo Chamado</a>
+                        <a class="nav-link" href="novoChamado.php">Novo Chamado</a>
                     </li>
                 </ul>
             </div>
