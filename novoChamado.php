@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="richtexteditor/richtexteditor/rte_theme_default.css" />
     <script type="text/javascript" src="richtexteditor/richtexteditor/rte.js"></script>
     <script type="text/javascript" src='richtexteditor/richtexteditor/plugins/all_plugins.js'></script>
+    <script type='text/javascript' src="richtexteditor/richtexteditor/lang/rte-lang-pt.js"></script>
 </head>
 <body>
     <header>
