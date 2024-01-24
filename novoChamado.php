@@ -6,6 +6,9 @@
     <title>HUNTER</title>
     <link rel="stylesheet" href="css/meuestilo.css">
     <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="richtexteditor/richtexteditor/rte_theme_default.css" />
+    <script type="text/javascript" src="richtexteditor/richtexteditor/rte.js"></script>
+    <script type="text/javascript" src='richtexteditor/richtexteditor/plugins/all_plugins.js'></script>
 </head>
 <body>
     <header>
@@ -77,9 +80,11 @@
                 <input type="text" class="form-control" placeholder="Título do Chamado">
             </div>
             <div class="mb-3">
-                <label for="exampleFormControlTextarea1" class="form-label">Example textarea</label>
-                <textarea class="form-control" id="exampleFormControlTextarea1" rows="10"></textarea>
+                <label for="exampleFormControlTextarea1" class="form-label">Descrição do Chamado</label>
+                <div class="mb-3" id="div_editor1">
+                </div>
             </div>
+            
             <div class="form-group">
                 <label for="exampleInputText"> Origem da Requisição </label>
                 <input type="text" class="form-control" placeholder="Origem da Requisição">
@@ -92,6 +97,10 @@
     </div>
     
 
+    <script>
+        var editor1 = new RichTextEditor("#div_editor1");
+        //editor1.setHTMLCode("Use inline HTML or setHTMLCode to init the default content.");
+    </script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
 </body>
