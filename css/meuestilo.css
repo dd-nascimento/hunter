@@ -43,3 +43,7 @@ header{
     color: #F2F2F2;
     transition: 0.5s;
 }
+
+#btn{
+    padding-top: 5%;
+}

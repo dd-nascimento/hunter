@@ -89,7 +89,7 @@
                 <label for="exampleInputText"> Origem da Requisição </label>
                 <input type="text" class="form-control" placeholder="Origem da Requisição">
             </div>
-            <div class="form-group fim">
+            <div class="form-group mx-pt-n5" id="btn">
                 <button type="submit" class="btn btn-primary">Abrir Chamado</button>
                 <button type="reset" class="btn btn-warning">Limpar Formulário</button>
             </div>
